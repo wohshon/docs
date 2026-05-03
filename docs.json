@@ -26,7 +26,8 @@
             "pages": [
               "essentials/settings",
               "essentials/navigation"
-            ]
+            ],
+            "hidden": true
           },
           {
             "group": "Writing content",
@@ -36,7 +37,8 @@
               "essentials/images",
               "essentials/components",
               "essentials/reusable-snippets"
-            ]
+            ],
+            "hidden": true
           },
           {
             "group": "Agent ready",
@@ -47,7 +49,8 @@
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
-            ]
+            ],
+            "hidden": true
           }
         ]
       },
