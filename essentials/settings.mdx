@@ -1,7 +1,7 @@
 ---
-title: 'Configuration'
-description: 'Customize your site with the `docs.json` file'
-icon: 'gear'
+title: "Configuration"
+description: "Customize your site with the `docs.json` file"
+icon: "gear"
 ---
 
 Every Mintlify site is configured through a `docs.json` file in your project root. Changes take effect immediately in local preview.
@@ -12,7 +12,7 @@ Set the name, theme, and visual identity of your site.
 
 ```json docs.json
 {
-  "name": "Acme Docs",
+  "name": "NKP Journal",
   "theme": "mint",
   "favicon": "/favicon.svg",
   "logo": {
@@ -36,9 +36,7 @@ Set the name, theme, and visual identity of your site.
 
 <ResponseField name="logo" type="object">
   <Expandable title="Logo">
-    <ResponseField name="light" type="string">Logo shown in light mode.</ResponseField>
-    <ResponseField name="dark" type="string">Logo shown in dark mode.</ResponseField>
-    <ResponseField name="href" type="string" default="/">URL the logo links to.</ResponseField>
+      
   </Expandable>
 </ResponseField>
 
@@ -68,9 +66,9 @@ Set the name, theme, and visual identity of your site.
 
 <ResponseField name="colors.background" type="object">
   Override the default page background color.
+
   <Expandable title="Background">
-    <ResponseField name="light" type="string">Background hex color in light mode.</ResponseField>
-    <ResponseField name="dark" type="string">Background hex color in dark mode.</ResponseField>
+     
   </Expandable>
 </ResponseField>
 
@@ -95,20 +93,21 @@ Configure the top navigation bar links and primary call-to-action.
 
 <ResponseField name="navbar.links" type="array">
   Text links displayed in the top navigation bar.
+
   <Expandable title="Link">
-    <ResponseField name="label" type="string">Display text for the link.</ResponseField>
-    <ResponseField name="href" type="string">URL the link points to.</ResponseField>
+     
   </Expandable>
 </ResponseField>
 
 <ResponseField name="navbar.primary" type="object">
   The prominent call-to-action in the top-right corner.
+
   <Expandable title="Primary">
     <ResponseField name="type" type='"button" | "github"'>
       `button` renders a CTA button. `github` renders a star count badge.
     </ResponseField>
-    <ResponseField name="label" type="string">Button label. Required when type is `button`.</ResponseField>
-    <ResponseField name="href" type="string">URL the button or badge links to.</ResponseField>
+
+     
   </Expandable>
 </ResponseField>
 

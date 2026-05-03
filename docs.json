@@ -69,7 +69,8 @@
               "api-reference/endpoint/webhook"
             ]
           }
-        ]
+        ],
+        "hidden": true
       }
     ],
     "global": {
